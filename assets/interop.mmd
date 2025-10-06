@@ -1,0 +1,7 @@
+graph TD
+    A[External Caller] --> B(CoRef API)
+    B --> C[Validation Layer]
+    C --> D[Schema / Registry / RefDB]
+    D --> E[Linked Spec or Bundle]
+    D --> F[Translator or Engine]
+    F --> G[Final Target Format or Tool]
