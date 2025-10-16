@@ -1,3 +1,6 @@
-# CoRef: Concept-Reference Protocol
+# CoRef
+Aggregated VA index across public repos. Generated file: `index.json`.
 
-Track the co-evolution of ideas, intent, and implementation across agents and time.
+- Add repos in `ops/build.ps1` → `$Repos`.
+- Run: `pwsh ops/build.ps1` then commit/push.
+- Site can fetch this single JSON for search/surfacing.
